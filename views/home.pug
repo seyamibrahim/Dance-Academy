@@ -1,0 +1,58 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css 
+
+block content 
+
+    section#introSection 
+        div Welcome to Sam's Dance Academy 
+        div.small Eat Sleep Dance Repeat 
+
+    section#missionSection 
+        h2  Our Mission  
+        div.card 
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.jpg", alt="loading")
+                div.card-content 
+                    p This is the best dance academy  
+
+
+        div.card 
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.jpg", alt="loading")
+                div.card-content 
+                    p This is the best dance academy 
+
+
+        div.card 
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.jpg", alt="loading")
+                div.card-content 
+                    p This is the best dance academy 
+
+        div.card 
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/4.jpeg", alt="loading")
+                div.card-content 
+                    p This is the best dance academy  
+
+    section#sponsorSection 
+        h2 Our Sponsors
+        div#sponsors 
+            img(src="/static/img/apple.png", alt="loading" Class = "spimg")
+            img(src="/static/img/hp.png", alt="loading" Class = "spimg")
+            img(src="/static/img/skype.png", alt="loading" Class = "spimg")
+            img(src="/static/img/dell.png", alt="loading" Class = "spimg")
+
